@@ -1,4 +1,4 @@
-const pok = document.getElementById("pok")
+
 const btn = document.getElementById("botao")
 
 function random(){

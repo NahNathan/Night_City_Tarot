@@ -5,13 +5,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
     flex-direction: column;
     height: 100vh;
 }
 
 #taro{
-    height: 800px;
-    width: 400px;
-    border:red 5px groove;
+    height: 85%;
+    width: 20%;
+    border:red 7px groove;
+}
+
+#botao{
+    border: 5px ridge red;
+    height: 3em;
+    width: 13em;
 }
