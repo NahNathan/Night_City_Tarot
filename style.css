@@ -11,13 +11,25 @@ body{
 }
 
 #taro{
-    height: 85%;
-    width: 20%;
-    border:red 7px groove;
+    margin-top: 10%;
+    height: 45em;
+    width: 17em;
+    border:red 6px ridge;
 }
 
 #botao{
-    border: 5px ridge red;
+    border: 4px ridge red;
+    border-radius: 5px;
+    background: black;
+    color: red;
     height: 3em;
-    width: 13em;
+    width: 14em;
+    margin-bottom: 10%;
+    font: 2em monospace;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+#botao:hover{
+    border: 4px ridge crimson;
+    color: crimson;
 }
