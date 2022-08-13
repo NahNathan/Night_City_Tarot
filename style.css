@@ -11,7 +11,7 @@ body{
 }
 
 #taro{
-    margin-top: 10%;
+    margin-top: 21em;
     height: 45em;
     width: 17em;
     border:red 6px ridge;
@@ -22,14 +22,23 @@ body{
     border-radius: 5px;
     background: black;
     color: red;
-    height: 3em;
+    height: 5em;
     width: 14em;
     margin-bottom: 10%;
     font: 2em monospace;
     cursor:pointer;
     transition: all 0.3s;
 }
+
 #botao:hover{
     border: 4px ridge crimson;
     color: crimson;
+}
+
+#texto{
+    color: red;
+    text-align: center;
+    font: 1.5em monospace;
+    margin-right: 40px;
+    margin-left: 40px;
 }
