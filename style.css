@@ -7,7 +7,7 @@ body{
     justify-content: center;
     gap: 5%;
     flex-direction: column;
-    height: 100vh;
+    height: 150vh;
 }
 
 #taro{
@@ -18,21 +18,22 @@ body{
 }
 
 #botao{
-    border: 4px ridge red;
+    border: 6px ridge red;
     border-radius: 5px;
     background: black;
     color: red;
     height: 5em;
     width: 14em;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font: 2em monospace;
     cursor:pointer;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 
 #botao:hover{
-    border: 4px ridge crimson;
+    border: 6px ridge crimson;
     color: crimson;
+    box-shadow:1px 1px 70px red ;
 }
 
 #texto{
@@ -41,4 +42,11 @@ body{
     font: 1.5em monospace;
     margin-right: 40px;
     margin-left: 40px;
+}
+
+#final{
+    color:red;
+    text-align: center;
+    font: 1em monospace;
+    cursor:pointer;
 }
