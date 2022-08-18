@@ -1,52 +1,59 @@
 *{padding: 0; margin: 0; }
 
 body{
-    background-color: black;
+    background-color: rgb(15, 8, 22);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5%;
     flex-direction: column;
-    height: 150vh;
+    height: 110vh;
 }
 
-#taro{
-    margin-top: 21em;
-    height: 45em;
-    width: 17em;
-    border:red 6px ridge;
+#carta{
+    margin-top: 10em;
+    height: 40em;
+    width: 20em;
+    border:goldenrod 7px ridge;
+    border-radius: 5px;
 }
 
 #botao{
-    border: 6px ridge red;
+    border: 5px ridge goldenrod;
     border-radius: 5px;
     background: black;
-    color: red;
-    height: 5em;
-    width: 14em;
-    margin-bottom: 5%;
-    font: 2em monospace;
+    color: goldenrod;
+    height: 6em;
+    width: 12em;
+    font: 1.5em verdana;
     cursor:pointer;
-    transition: all 0.4s;
+    transition: all 0.7s;
 }
 
 #botao:hover{
-    border: 6px ridge crimson;
-    color: crimson;
-    box-shadow:1px 1px 70px red ;
+    border: 5px ridge gold;
+    color: gold;
+    box-shadow: 1px 1px 20px goldenrod;
+
 }
 
 #texto{
-    color: red;
+    color: white;
     text-align: center;
-    font: 1.5em monospace;
+    font: 1em verdana;
     margin-right: 40px;
     margin-left: 40px;
 }
 
 #final{
-    color:red;
     text-align: center;
     font: 1em monospace;
+    margin-bottom: 3em;
+    color:white;
     cursor:pointer;
+    transition: all 0.3s;
+}
+
+#final:hover{
+    color:goldenrod;
 }
