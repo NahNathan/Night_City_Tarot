@@ -5,27 +5,27 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5%;
     flex-direction: column;
-    height: 130vh;
+    
 }
 
 #taro{
-    margin-top: 21em;
-    height: 45em;
-    width: 20em;
+    margin-top: 2em;
+    height: 30em;
+    width: 17em;
     border:red 6px ridge;
 }
 
 #botao{
+    margin: 5vh;
     border: 6px ridge red;
     border-radius: 5px;
     background: black;
     color: red;
-    height: 5em;
-    width: 14em;
+    height: 3em;
+    width: 15em;
     margin-bottom: 5%;
-    font: 2em monospace;
+    font: 3vh monospace;
     cursor:pointer;
     transition: all 0.4s;
 }
