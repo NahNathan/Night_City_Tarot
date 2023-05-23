@@ -23,7 +23,7 @@ body{
     background: black;
     color: red;
     height: 3em;
-    width: 15em;
+    width: 13em;
     margin-bottom: 5%;
     font: 3vh monospace;
     cursor:pointer;
@@ -39,9 +39,18 @@ body{
 #texto{
     color: red;
     text-align: center;
+    font: 2em monospace;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+#descricao{
+    color: gold;
+    text-align: center;
     font: 1.5em monospace;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin: 3vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 #final{
@@ -49,4 +58,5 @@ body{
     text-align: center;
     font: 1em monospace;
     cursor:pointer;
+    
 }
