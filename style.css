@@ -1,4 +1,12 @@
 *{padding: 0; margin: 0; }
+@font-face {
+    font-family: FonteGlitch;
+    src: url(Glitch.otf);
+}
+@font-face {
+    font-family: FonteKing;
+    src: url(F25_Executive.otf);
+}
 
 body{
     background-color: black;
@@ -22,10 +30,11 @@ body{
     border-radius: 5px;
     background: black;
     color: red;
-    height: 3em;
-    width: 13em;
+    height: 4em;
+    width: 14em;
     margin-bottom: 5%;
-    font: 3vh monospace;
+    font-family: FonteGlitch;
+    font-size: 3vh;
     cursor:pointer;
     transition: all 0.4s;
 }
@@ -47,7 +56,9 @@ body{
 #descricao{
     color: gold;
     text-align: center;
-    font: 1.5em georgia;
+    
+    font-family: FonteKing;
+    font-size: 1.5em;
     margin: 3vw;
     margin-right: 10vw;
     margin-left: 10vw;
