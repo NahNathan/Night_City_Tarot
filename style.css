@@ -1,73 +1,71 @@
-*{padding: 0; margin: 0; }
+* {
+    padding: 0;
+    margin: 0;
+}
+
 @font-face {
     font-family: FonteGlitch;
     src: url(Glitch.otf);
 }
+
 @font-face {
     font-family: FonteKing;
     src: url(F25_Executive.otf);
 }
 
-body{
+body {
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 
-#taro{
+#taro {
     margin-top: 2em;
     height: 30em;
     width: 17em;
-    border:red 6px ridge;
+    border: 6px ridge red;
 }
 
-#botao{
-    margin: 5vh;
+#botao {
+    margin: 5vh 0;
     border: 6px ridge red;
     border-radius: 5px;
     background: black;
     color: red;
     height: 4em;
     width: 14em;
-    margin-bottom: 5%;
     font-family: FonteGlitch;
     font-size: 3vh;
-    cursor:pointer;
+    cursor: pointer;
     transition: all 0.4s;
 }
 
-#botao:hover{
+#botao:hover {
     border: 6px ridge crimson;
     color: crimson;
-    box-shadow:1px 1px 70px red ;
+    box-shadow: 1px 1px 70px red;
 }
 
-#texto{
+#texto {
     color: red;
     text-align: center;
     font: 2em monospace;
-    margin-right: 10vw;
-    margin-left: 10vw;
+    margin: 3vw;
 }
 
-#descricao{
+#descricao {
     color: gold;
     text-align: center;
-    
     font-family: FonteKing;
     font-size: 1.5em;
-    margin: 3vw;
-    margin-right: 10vw;
-    margin-left: 10vw;
+    margin: 3vw 10vw;
 }
 
-#final{
-    color:red;
+#final {
+    color: red;
     text-align: center;
     font: 1em monospace;
-    cursor:pointer;
-    
+    cursor: pointer;
 }
