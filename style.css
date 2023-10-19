@@ -13,6 +13,11 @@
     src: url(F25_Executive.otf);
 }
 
+@font-face {
+    font-family: FonteHigh;
+    src: url(HWYGNRRW.TTF);
+}
+
 body {
     background-color: black;
     display: flex;
@@ -25,7 +30,8 @@ body {
     margin-top: 2em;
     height: 30em;
     width: 17em;
-    border: 6px ridge red;
+    border: 6px ridge crimson;
+    border-radius: 3%;
 }
 
 #botao {
@@ -51,7 +57,7 @@ body {
 #texto {
     color: red;
     text-align: center;
-    font: 2em monospace;
+    font: 2em  FonteHigh;
     margin: 3vw;
 }
 
@@ -66,6 +72,8 @@ body {
 #final {
     color: red;
     text-align: center;
-    font: 1em monospace;
+    font-size: 1.2em; 
+    font-family:  FonteKing;
     cursor: pointer;
+    padding-bottom: 1vw;
 }
