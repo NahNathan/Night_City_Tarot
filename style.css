@@ -19,37 +19,38 @@
 }
 
 body {
-    background-color: black;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#taro {
+#taro{
     margin-top: 2em;
-    height: 30em;
+    height: 31em;
     width: 17em;
-    border: 6px ridge crimson;
     border-radius: 3%;
+    border: 4px ridge crimson;
 }
 
+
 #botao {
-    margin: 5vh 0;
-    border: 6px ridge red;
-    border-radius: 5px;
+    margin: 5vh;
+    border: 4px ridge red;
+    border-radius: 3%;
     background: black;
     color: red;
     height: 4em;
-    width: 14em;
+    width: 13em;
     font-family: FonteGlitch;
-    font-size: 3vh;
+    font-size: 1.3em;
     cursor: pointer;
     transition: all 0.4s;
 }
 
 #botao:hover {
-    border: 6px ridge crimson;
+    border: 4px ridge crimson;
     color: crimson;
     box-shadow: 1px 1px 70px red;
 }
@@ -57,8 +58,8 @@ body {
 #texto {
     color: red;
     text-align: center;
-    font: 2em  FonteHigh;
-    margin: 3vw;
+    font: 2em FonteHigh;
+    margin: 0vh 5vw 3vh 5vw;
 }
 
 #descricao {
