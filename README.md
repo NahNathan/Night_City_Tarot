@@ -1,6 +1,6 @@
 # Night_City_Tarot
-## Gerador de imagens aleatórias para o jogo de RPG de mesa Cyberpunk Red
-Eu fiz esse app mais para uso pessoal nos meus jogos pessoais, os efeitos são um subsistema opcional para o combate do Cyberpunk Red, sinta-se livre para dar uma ohada ou fazer melhorias
+## Add chaos to combat — one card at a time
+I developed this app primarily for personal use in my own Cyberpunk Red tabletop RPG sessions.  It utilizes a deck of Cyberpunk-themed Tarot cards to introduce random critical events and outcomes during combat scenarios. The app triggers unique effects from the Major Arcana cards when certain conditions in combat are met, such as rolling multiple sixes. Feel free to explore the app and consider making enhancements; your contributions are welcome
 ## https://nahnathan.github.io/Night_City_Tarot/
 
 Whenever three or more dice rolled for damage from a Melee or Ranged Attack come up 6, draw the top card of your Night City Tarot deck and apply its effects as listed instead of a typical Critical Injury. There are two caveats.
