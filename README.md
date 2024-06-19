@@ -1,16 +1,59 @@
-# Night_City_Tarot
-## Add chaos to combat — one card at a time
-I developed this app primarily for personal use in my own Cyberpunk Red tabletop RPG sessions.  It utilizes a deck of Cyberpunk-themed Tarot cards to introduce random critical events and outcomes during combat scenarios. The app triggers unique effects from the Major Arcana cards when certain conditions in combat are met, such as rolling multiple sixes. Feel free to explore the app and consider making enhancements; your contributions are welcome
-## https://nahnathan.github.io/Night_City_Tarot/
 
-Whenever three or more dice rolled for damage from a Melee or Ranged Attack come up 6, draw the top card of your Night City Tarot deck and apply its effects as listed instead of a typical Critical Injury. There are two caveats.
+# Night City Tarot
 
-First, only draw a card if the Attack is against a single target. Never draw for grenades, rockets, or other Attacks with an area of effect.
+Night City Tarot is a random image generator designed specifically for the Cyberpunk Red tabletop RPG, utilizing the additional content Night City Tarot. This tool adds an element of chaos and unpredictability to your gaming sessions with themed tarot cards.
 
-Second, only draw a card if both the attacker and defender are capable of sustaining Critical Injuries. For example, don’t draw if one of the combatants involved in the Attack is a drone.
 
-Many of the Night City Tarot card effects inflict Critical Injuries. Whenever a card inflicts multiple Critical Injuries, each Injury causes 5 bonus damage directly to HP unless noted otherwise. After the effect of the card is resolved, put that card on the bottom of the deck, and put the deck away, because only one card can be pulled from the Night City Tarot per game session.
+## Usage
 
-One last thing... after the first pull, don’t shuffle the deck until the campaign has experienced each card once... bad things happen when you tempt fate.
->>Nenhuma dessas artes ou regras são minhas, eu apenas fiz o app
-Todo o crédito vai para a R. Talsorian Games, Inc. e a CD PROJEKT®
+Using Night City Tarot is straightforward and enhances your Cyberpunk Red gameplay with the following steps:
+
+1. **Visit R. Talsorian Games**:
+   - First, visit [R. Talsorian Games](https://rtalsoriangames.com/downloadable-content/) to download the Night City Tarot PDF and check out the additional content for the game, including the rules for using Night City Tarot in your game.
+
+2. **Access the Application**:
+   - Visit [Night City Tarot](https://nahnathan.github.io/Night_City_Tarot/) to use the online tool.
+
+3. **Follow the Rules**:
+   - Whenever three or more dice rolled for damage from a Melee or Ranged Attack come up as 6, draw a card using the Night City Tarot application.
+   - Apply the effects of the drawn card as listed in the application instead of using a typical Critical Injury.
+   - Only draw a card if the attack is against a single target and if both the attacker and defender are capable of sustaining Critical Injuries (e.g., not a drone).
+
+4. **Single Card Per Session**:
+   - After drawing and resolving a card, put the card effect away. Only one card can be pulled from the Night City Tarot per game session.
+
+
+## Contributing
+
+If you have ideas for new features or improvements in this project, feel free to fork the repository and submit a pull request. Here's how you can get started:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request.
+
+## Credits
+
+This project was inspired by the rich world of Cyberpunk Red and aims to enhance the gaming experience for all players.
+
+### Special Thanks
+- **R. Talsorian Games**: For creating the Cyberpunk Red RPG and providing the additional content used in this project.
+- **CD PROJEKT S.A.**: For the Major Arcana images used in this project. All artwork is © 2021 CD PROJEKT S.A. and is used here for personal, non-commercial purposes only.
+- **Contributors**: Everyone who has contributed to the development and improvement of this tool.
+
+
+## Disclaimer
+
+This project is for personal use only. Commercial use of the images or content from the Night City Tarot is strictly prohibited as per the terms provided by CD PROJEKT S.A. All copyrights and trademarks are the property of their respective owners.
+
+Enjoy your game!
