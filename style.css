@@ -26,12 +26,12 @@ body {
     flex-direction: column;
 }
 
-#taro{
+#taro {
     margin-top: 2em;
     height: 31em;
     width: 17em;
     border-radius: 3%;
-    border: 4px ridge crimson;
+    box-shadow: 1px 1px 40px red;
 }
 
 
@@ -73,8 +73,8 @@ body {
 #final {
     color: red;
     text-align: center;
-    font-size: 1.2em; 
-    font-family:  FonteKing;
+    font-size: 1.2em;
+    font-family: FonteKing;
     cursor: pointer;
     padding-bottom: 1vw;
 }
