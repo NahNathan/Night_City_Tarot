@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /Cartas/back.png
+Allow: /Cartas/*.png
+
+# Prevent indexing of raw card images individually
+Disallow: /assets/raw/
+
+Sitemap: https://nahnathan.github.io/Night_City_Tarot/sitemap.xml
+
+# For future crawl budget optimization
+Crawl-delay: 1
